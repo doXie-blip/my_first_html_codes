@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img{
+            position: absolute;
+            left:0px;
+            top:0px;
+            z-index: -1;
+            width: 300px;
+            height: 500px;
+        }
+        h1{
+            z-index: 1;
+        }
+        p{
+            z-index: -1;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="color:red;">This is a heading</h1>
+    <img src="419374150_fbc9c7e3-3e7c-4f99-9eaf-f8d843582d70.jpg" >
+    <p style="color:red;">because the image has a z-index of -1, it will be placed behindthe text</p>
+</body>
+</html>

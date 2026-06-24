@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>position and z-index</z-index></title>
+    <style>
+        div.static{
+            position: static;
+            border:3px solid #73AD21;
+            background-color:bisque;
+        }
+
+        div.relative{
+            position: relative;
+            left:30px;
+            border:3px solid #73AD21
+        }
+
+        div.fixed{
+            position:fixed;
+            bottom: 0;
+            right: 0;
+            width: 300px;
+            height: 200px;
+            border: 2px solid #4CAF50;
+        }
+
+        div.sticky{
+            position: sticky;
+            top:0;
+            padding:5px;
+            background-color:#CAE8CA;
+            border:2px solid #4CAF50
+        }
+
+        .container{
+            position: relative;
+        }
+
+        .topleft{
+            position: absolute;
+            top: 8px;
+            left:16px;
+            font-size:20px;
+        }
+
+        img{
+            width:100%;
+            height: auto;
+            opacity:0.5;
+        }
+    </style>
+</head>
+<body>
+   <h2>Using Position:Static</h2> 
+   <p>An element with position: static;is always positioned according to th normal flow of the page</p>
+
+   <div class="static">
+    This div element has position: static;
+   </div>
+
+   <div class="relative">
+    This div element has position:relative;
+   </div>
+
+<h2>Using position:fixed;</h2>
+
+<p>An element with position: fixedl is a positioned relative to the viewport' which means it always stays in the same place even if the page is scrolled:</p>
+
+<div class="fixed">
+    this div element has position:fixed;
+</div>
+
+
+<h2>Using position: sticky;</h2>
+
+<div class="sticky">
+    this div element has position:sticky;
+</div>
+
+<p>Try to scroll this pass to understand on sticky works.</p>
+
+<p>Here, when the sticky element reach the top of the page (top:0)' it sticks to this position!</p>
+
+<div style="padding-bottom:200px">
+    <p>Scroll back up to remove the stickyness!</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis id optio quibusdam repellat ut doloremque dolore error corporis tempore magni dolores obcaecati voluptatem delectus laborum fugit adipisci maiores nulla sunt, recusandae, molestiae blanditiis excepturi corrupti, doloribus nisi? Dolorem esse voluptas enim hic ipsa! Unde hic tempore inventore. At, minima quaerat?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde dolore temporibus corporis, recusandae, enim culpa cupiditate magnam nostrum vitae magni, sit perspiciatis? Tenetur aliquam, adipisci fugiat soluta voluptates provident dicta libero sunt temporibus atque facere obcaecati mollitia nulla magnam perspiciatis ducimus inventore praesentium iure? Illo odio ut corrupti qui voluptate.</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit asperiores voluptatibus officiis earum atque totam recusandae nostrum quia vel vitae, consequatur alias. Ratione, atque neque corporis alias deserunt beatae nemo excepturi similique mollitia rem eius voluptatibus explicabo repellat ad fugit iste nostrum impedit eum facilis! Labore earum deserunt iste modi?</p>
+</div>
+
+<h2>Position Text on Image</h2>
+<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque odit aspernatur nemo, in ratione reiciendis suscipit laboriosam? Aut atque delectus officia, recusandae provident laborum minus inventore excepturi ipsam sunt, veniam aspernatur facere vel a possimus fugiat saepe, pariatur sit natus hic! Distinctio eaque omnis accusantium ducimus accusamus illo, magni quae corrupti aspernatur tempore, nam recusandae ipsa ex inventore consequuntur similique! Voluptate exercitationem illo, reprehenderit nostrum praesentium a possimus unde enim reiciendis repellat velit numquam porro assumenda fugiat voluptates debitis earum nihil sit adipisci quos pariatur mollitia! Deleniti eum, perspiciatis placeat ipsam id, inventore hic cupiditate perferendis labore, deserunt sed repudiandae!</p>
+
+<p>position a text on an image in the top left corner:</p>
+
+<div class="container">
+    <img src="419374150_fbc9c7e3-3e7c-4f99-9eaf-f8d843582d70.jpg" alt="scan me">
+</div>
+</body>
+</html>

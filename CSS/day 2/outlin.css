@@ -1,0 +1,54 @@
+body {
+   background: #3C3C3C;
+   margin: 0;
+}
+
+#backgroundImage {
+    border: none;
+    height: 100%;
+    pointer-events: none;
+    position: fixed;
+    top: 0;
+    visibility: hidden;
+    width: 100%;
+}
+
+[show-background-image] #backgroundImage {
+    visibility: visible;
+}
+p.top_element{
+    text-align: right;
+}
+.top_right_item{
+    margin-right: 20px;
+}
+span.gmail{
+    margin-right: 20px;
+}
+span.icon{
+    margin-right: 20px; 
+}
+span.photo{
+    margin-right: 20px;
+}
+span.images{
+    margin-right: 20px;
+}
+img.world_cup_img{
+    width: 400px;
+    height: 180px;
+    margin: 20px 430px 20px 430px;
+    border-image: round;
+}
+input.input_search{
+    margin: 20px 430px 20px 430px;
+    padding: 20px 180px 15px 55px;
+    border-radius: 40px;
+    border-style: solid;
+}
+span.AI-mode{
+    border-style: solid;
+    border-radius: 40px;
+    padding: 3px 15px 3px 15px;
+    
+}

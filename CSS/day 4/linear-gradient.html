@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Gredient</title>
+    <style>
+        #linear-1{
+            height: 200px;
+            background-color: red;
+            background-image: linear-gradient(to bottom,red,yellow);
+        }
+         #linear-2{
+            height: 200px;
+            background-color: red;
+            background-image: linear-gradient(to right,red,orange,yellow,green,blue,indigo,violet);
+        }
+         #diagonal-1{
+            height: 300px;
+            background-color: red;
+            background-image: repeating-linear-gradient( red,green,yellow); 
+         }
+    </style>
+</head>
+<body>
+    <h3>The CSS Gradient function helps us to display smooth transitions between two or more colors within an element</h3>
+    <h4>There are 3 kinds of gradients</h4>
+    <ul>
+        <li marker><strong>Linear gradient-</strong> the color transition goes down, up, left, right, diagonally</li>
+        <li marker><strong>Radial gradient-</strong> The color transition goes out from the cerntral point</li>
+        <li marker><strong>Conic gradient-</strong> The color transition is rotated around a central point</li>
+    </ul>
+    <div id="linear-1">
+
+    </div>
+    <br><br>
+    <div id="linear-2">
+
+    </div>
+    <br><br>
+    <div id="diagonal-1">
+
+    </div>
+</body>
+</html>
