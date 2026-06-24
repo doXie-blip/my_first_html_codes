@@ -1,0 +1,14 @@
+1.go to github
+2.click on the desired  repository
+3.inside it, click on the file/folder of your choice
+4.locate the code icon and click on it
+5.a url of the file/folder will be shown inside the code icon, copy it
+6.after that. Head over to your file explorer
+7.under your codes folder create a new one inside it 
+  NOTE;If you do not afoler for your codes, create the folder inside your desktop 
+
+8.inside that new folder, right click(a menu will appeaar)
+9.click on the'open in terminal' option 
+10.after the terminal appears type 'git clone (url of the file/folder you copied)' then enter
+11.once the file has been cloned type  'cd (name of the folder you cloned)' then enter
+12.after that  type'code .' then enter(the file/folder that was cloned will open in your vs. code)
